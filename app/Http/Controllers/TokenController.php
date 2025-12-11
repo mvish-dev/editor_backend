@@ -70,6 +70,15 @@ class TokenController extends Controller
         }
     }
 
+    public function orders(Request $request)
+    {
+        try {
+            return $request->user()->orders()->with('package')->latest()->paginate(10);
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
+
     public function history(Request $request)
     {
         try {

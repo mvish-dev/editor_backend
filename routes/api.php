@@ -41,6 +41,14 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/tokens/balance', [\App\Http\Controllers\TokenController::class, 'balance']);
     Route::post('/purchase', [\App\Http\Controllers\TokenController::class, 'purchase']);
     Route::get('/transactions', [\App\Http\Controllers\TokenController::class, 'history']);
+    Route::get('/orders', [\App\Http\Controllers\TokenController::class, 'orders']);
+    Route::get('/dashboard/stats', [\App\Http\Controllers\DashboardController::class, 'stats']);
+
+    Route::get('/dashboard/stats', [\App\Http\Controllers\DashboardController::class, 'stats']);
+    
+    // Tickets
+    Route::get('/tickets', [\App\Http\Controllers\TicketController::class, 'index']);
+    Route::post('/tickets', [\App\Http\Controllers\TicketController::class, 'store']);
 
     // Admin Routes
     Route::middleware(['role:admin'])->prefix('admin')->group(function () {
