@@ -24,6 +24,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             TokenPackageSeeder::class,
+            RolePermissionSeeder::class,
+            SettingsSeeder::class,
         ]);
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
-Route::middleware('auth:sanctum')->group(function () {
+Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
@@ -16,7 +16,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::delete('/user', [\App\Http\Controllers\UserController::class, 'deleteAccount']);
 });
 
-Route::prefix('auth')->group(function () {
+Route::prefix('auth')->middleware('maintenance')->group(function () {
     Route::post('/register', [AuthController::class, 'register']);
     Route::post('/verify-otp', [AuthController::class, 'verifyOtp']);
     Route::post('/login', [AuthController::class, 'login']);
@@ -31,7 +31,7 @@ Route::prefix('auth')->group(function () {
     });
 });
 
-Route::middleware('auth:sanctum')->group(function () {
+Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     // Designs
     Route::apiResource('designs', \App\Http\Controllers\DesignController::class);
     Route::post('/designs/generate', [\App\Http\Controllers\DesignController::class, 'generateImage']);
@@ -70,5 +70,9 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::post('/users/{user}/tokens', [\App\Http\Controllers\AdminController::class, 'adjustTokens']);
         Route::get('/templates/pending', [\App\Http\Controllers\AdminController::class, 'pendingTemplates']);
         Route::post('/templates/{design}/approve', [\App\Http\Controllers\AdminController::class, 'approveTemplate']);
+
+        // Site Settings
+        Route::get('/settings', [\App\Http\Controllers\SettingController::class, 'index']);
+        Route::post('/settings', [\App\Http\Controllers\SettingController::class, 'update']);
     });
 });
