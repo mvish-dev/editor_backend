@@ -52,7 +52,21 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Admin Routes
     Route::middleware(['role:admin'])->prefix('admin')->group(function () {
+        Route::get('/overview', [\App\Http\Controllers\AdminController::class, 'overview']);
+        
         Route::get('/users', [\App\Http\Controllers\AdminController::class, 'users']);
+        
+        // Reports
+        Route::get('/reports', [\App\Http\Controllers\AdminController::class, 'reports']);
+
+        // Tickets
+        Route::get('/tickets', [\App\Http\Controllers\AdminController::class, 'tickets']);
+        Route::put('/tickets/{ticket}/status', [\App\Http\Controllers\AdminController::class, 'updateTicketStatus']);
+
+        Route::post('/users', [\App\Http\Controllers\AdminController::class, 'storeUser']);
+        Route::put('/users/{user}', [\App\Http\Controllers\AdminController::class, 'updateUser']);
+        Route::delete('/users/{user}', [\App\Http\Controllers\AdminController::class, 'destroyUser']);
+
         Route::post('/users/{user}/tokens', [\App\Http\Controllers\AdminController::class, 'adjustTokens']);
         Route::get('/templates/pending', [\App\Http\Controllers\AdminController::class, 'pendingTemplates']);
         Route::post('/templates/{design}/approve', [\App\Http\Controllers\AdminController::class, 'approveTemplate']);
