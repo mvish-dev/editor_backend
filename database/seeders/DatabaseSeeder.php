@@ -17,15 +17,19 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        // User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        //     'username' => 'admin',
+        //     'phone' => '9876543210',
+        //     'password' => bcrypt('12345678'),
+        // ]);
 
         $this->call([
             TokenPackageSeeder::class,
             RolePermissionSeeder::class,
             SettingsSeeder::class,
+            TemplateSeeder::class,
         ]);
     }
 }

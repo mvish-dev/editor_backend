@@ -74,5 +74,8 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
         // Site Settings
         Route::get('/settings', [\App\Http\Controllers\SettingController::class, 'index']);
         Route::post('/settings', [\App\Http\Controllers\SettingController::class, 'update']);
+
+        // Categories
+        Route::apiResource('categories', \App\Http\Controllers\CategoryController::class);
     });
 });

@@ -1,0 +1,4863 @@
+{
+  "Business Card": [
+    {
+      "id": "bc-1",
+      "name": "Modern Minimal",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 20,
+          "height": 350,
+          "fill": "#ea580c"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 30,
+          "text": "John Doe",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 90,
+          "fontSize": 16,
+          "text": "Software Engineer",
+          "fontFamily": "Arial",
+          "fill": "#64748b"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 250,
+          "fontSize": 14,
+          "text": "+1 234 567 890",
+          "fontFamily": "Arial",
+          "fill": "#334155"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 275,
+          "fontSize": 14,
+          "text": "john@example.com",
+          "fontFamily": "Arial",
+          "fill": "#334155"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 300,
+          "fontSize": 14,
+          "text": "www.example.com",
+          "fontFamily": "Arial",
+          "fill": "#334155"
+        }
+      ]
+    },
+    {
+      "id": "bc-2",
+      "name": "Creative Orange",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#ea580c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#ea580c"
+        },
+        {
+          "type": "circle",
+          "left": 400,
+          "top": -50,
+          "radius": 150,
+          "fill": "#ffffff",
+          "opacity": 0.1
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 150,
+          "fontSize": 40,
+          "text": "CREATIVE",
+          "fontFamily": "Impact",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 20,
+          "text": "AGENCY",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center",
+          "letterSpacing": 5
+        }
+      ]
+    },
+    {
+      "id": "bc-3",
+      "name": "Elegant Dark",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#000000",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#18181b"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 500,
+          "height": 250,
+          "fill": "transparent",
+          "stroke": "#d4af37",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 140,
+          "fontSize": 36,
+          "text": "LUXURY",
+          "fontFamily": "Playfair Display",
+          "fill": "#d4af37",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 190,
+          "fontSize": 14,
+          "text": "EST. 2024",
+          "fontFamily": "Arial",
+          "fill": "#a1a1aa",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "bc-4",
+      "name": "Tech Startup",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#3b82f6",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#f8fafc"
+        },
+        {
+          "type": "triangle",
+          "left": 500,
+          "top": -50,
+          "width": 200,
+          "height": 200,
+          "fill": "#3b82f6",
+          "angle": 45
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 120,
+          "fontSize": 32,
+          "text": "TechStart",
+          "fontFamily": "Roboto",
+          "fill": "#0f172a",
+          "fontWeight": "bold"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 160,
+          "fontSize": 16,
+          "text": "Innovating the Future",
+          "fontFamily": "Roboto",
+          "fill": "#64748b"
+        }
+      ]
+    }
+  ],
+  "Flyer": [
+    {
+      "id": "fl-1",
+      "name": "Summer Party",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#facc15",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fef08a"
+        },
+        {
+          "type": "circle",
+          "left": 100,
+          "top": 100,
+          "radius": 200,
+          "fill": "#facc15"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 300,
+          "fontSize": 80,
+          "text": "SUMMER",
+          "fontFamily": "Impact",
+          "fill": "#ea580c",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 60,
+          "text": "PARTY",
+          "fontFamily": "Impact",
+          "fill": "#ea580c",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 500,
+          "fontSize": 30,
+          "text": "SATURDAY, JULY 15TH",
+          "fontFamily": "Arial",
+          "fill": "#ca8a04",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fl-2",
+      "name": "Grand Opening",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#ef4444",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 300,
+          "fill": "#ef4444"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 100,
+          "fontSize": 60,
+          "text": "GRAND",
+          "fontFamily": "Montserrat",
+          "fill": "#ffffff",
+          "fontWeight": "bold",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 180,
+          "fontSize": 60,
+          "text": "OPENING",
+          "fontFamily": "Montserrat",
+          "fill": "#ffffff",
+          "fontWeight": "bold",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 24,
+          "text": "Join us for the big day!",
+          "fontFamily": "Arial",
+          "fill": "#333333",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fl-3",
+      "name": "Music Festival",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#8b5cf6",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#2e1065"
+        },
+        {
+          "type": "circle",
+          "left": 0,
+          "top": 0,
+          "radius": 300,
+          "fill": "#8b5cf6",
+          "opacity": 0.5
+        },
+        {
+          "type": "circle",
+          "left": 400,
+          "top": 600,
+          "radius": 200,
+          "fill": "#ec4899",
+          "opacity": 0.5
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 350,
+          "fontSize": 70,
+          "text": "MUSIC",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 430,
+          "fontSize": 70,
+          "text": "FEST",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fl-4",
+      "name": "Sale Flyer",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#22c55e",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 495,
+          "height": 742,
+          "fill": "transparent",
+          "stroke": "#22c55e",
+          "strokeWidth": 10
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 200,
+          "fontSize": 100,
+          "text": "SALE",
+          "fontFamily": "Impact",
+          "fill": "#15803d",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 350,
+          "fontSize": 50,
+          "text": "UP TO 50% OFF",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#166534",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "YouTube Thumbnail": [
+    {
+      "id": "yt-1",
+      "name": "Gaming Video",
+      "width": 1280,
+      "height": 720,
+      "previewColor": "#7c3aed",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720,
+          "fill": "#1e1b4b"
+        },
+        {
+          "type": "i-text",
+          "left": 640,
+          "top": 250,
+          "fontSize": 120,
+          "text": "EPIC WIN",
+          "fontFamily": "Impact",
+          "fill": "#facc15",
+          "stroke": "#000000",
+          "strokeWidth": 4,
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 640,
+          "top": 400,
+          "fontSize": 60,
+          "text": "GAMEPLAY HIGHLIGHTS",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "yt-2",
+      "name": "Tech Review",
+      "width": 1280,
+      "height": 720,
+      "previewColor": "#3b82f6",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720,
+          "fill": "#eff6ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 400,
+          "height": 720,
+          "fill": "#3b82f6"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 300,
+          "fontSize": 80,
+          "text": "REVIEW",
+          "fontFamily": "Roboto",
+          "fontWeight": "bold",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 450,
+          "top": 300,
+          "fontSize": 80,
+          "text": "NEW GADGET",
+          "fontFamily": "Roboto",
+          "fontWeight": "bold",
+          "fill": "#1e3a8a"
+        }
+      ]
+    },
+    {
+      "id": "yt-3",
+      "name": "Vlog Daily",
+      "width": 1280,
+      "height": 720,
+      "previewColor": "#f43f5e",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "i-text",
+          "left": 640,
+          "top": 200,
+          "fontSize": 100,
+          "text": "A DAY IN LIFE",
+          "fontFamily": "Playfair Display",
+          "fill": "#be123c",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 440,
+          "top": 350,
+          "width": 400,
+          "height": 10,
+          "fill": "#be123c"
+        }
+      ]
+    },
+    {
+      "id": "yt-4",
+      "name": "Tutorial",
+      "width": 1280,
+      "height": 720,
+      "previewColor": "#10b981",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 720,
+          "fill": "#ecfdf5"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 100,
+          "fontSize": 60,
+          "text": "HOW TO:",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#047857"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 200,
+          "fontSize": 100,
+          "text": "MASTER REACT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#065f46"
+        },
+        {
+          "type": "rect",
+          "left": 100,
+          "top": 350,
+          "width": 200,
+          "height": 60,
+          "fill": "#10b981",
+          "rx": 10,
+          "ry": 10
+        },
+        {
+          "type": "i-text",
+          "left": 130,
+          "top": 365,
+          "fontSize": 30,
+          "text": "WATCH NOW",
+          "fontFamily": "Arial",
+          "fill": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "Bill Book": [
+    {
+      "id": "bb-1",
+      "name": "Classic Blue Invoice",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0c4a6e",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 120,
+          "fill": "#0ea5e9"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 40,
+          "fontSize": 32,
+          "text": "INVOICE",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 150,
+          "fontSize": 14,
+          "text": "Billed To:",
+          "fontFamily": "Arial",
+          "fill": "#64748b"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 300,
+          "width": 515,
+          "height": 40,
+          "fill": "#f1f5f9"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 310,
+          "fontSize": 14,
+          "text": "Description",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#334155"
+        },
+        {
+          "type": "i-text",
+          "left": 450,
+          "top": 310,
+          "fontSize": 14,
+          "text": "Amount",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#334155"
+        }
+      ]
+    },
+    {
+      "id": "bb-2",
+      "name": "Modern Minimal",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0f172a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 40,
+          "width": 515,
+          "height": 2,
+          "fill": "#000000"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 60,
+          "fontSize": 40,
+          "text": "BILL",
+          "fontFamily": "Helvetica",
+          "fontWeight": "bold",
+          "fill": "#000000"
+        },
+        {
+          "type": "i-text",
+          "left": 450,
+          "top": 60,
+          "fontSize": 16,
+          "text": "#0001",
+          "fontFamily": "Courier New",
+          "fill": "#000000"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 700,
+          "width": 515,
+          "height": 2,
+          "fill": "#000000"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 720,
+          "fontSize": 12,
+          "text": "Thank you for your business",
+          "fontFamily": "Arial",
+          "fill": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "bb-3",
+      "name": "Corporate Green",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#14532d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 20,
+          "height": 842,
+          "fill": "#15803d"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 30,
+          "text": "TAX INVOICE",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#15803d"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 100,
+          "width": 500,
+          "height": 2,
+          "fill": "#15803d"
+        }
+      ]
+    },
+    {
+      "id": "bb-4",
+      "name": "Red Accent",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#7f1d1d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "circle",
+          "left": 450,
+          "top": -50,
+          "radius": 100,
+          "fill": "#ef4444",
+          "opacity": 0.1
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 40,
+          "fontSize": 36,
+          "text": "INVOICE",
+          "fontFamily": "Impact",
+          "fill": "#ef4444"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 250,
+          "width": 515,
+          "height": 300,
+          "fill": "transparent",
+          "stroke": "#ef4444",
+          "strokeWidth": 1
+        }
+      ]
+    }
+  ],
+  "A4 Bill Book": [
+    {
+      "id": "a4bb-1",
+      "name": "Professional A4",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 150,
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 60,
+          "fontSize": 28,
+          "text": "COMPANY NAME",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 100,
+          "fontSize": 14,
+          "text": "123 Business Rd, City",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8"
+        }
+      ]
+    },
+    {
+      "id": "a4bb-2",
+      "name": "Grid Layout",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 200,
+          "width": 515,
+          "height": 400,
+          "fill": "transparent",
+          "stroke": "#cbd5e1",
+          "strokeWidth": 1
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 200,
+          "width": 515,
+          "height": 40,
+          "fill": "#f1f5f9"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 210,
+          "fontSize": 14,
+          "text": "ITEM",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#334155"
+        }
+      ]
+    },
+    {
+      "id": "a4bb-3",
+      "name": "Elegant Serif",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#451a03",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 40,
+          "width": 515,
+          "height": 762,
+          "fill": "transparent",
+          "stroke": "#78350f",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 80,
+          "fontSize": 32,
+          "text": "Invoice",
+          "fontFamily": "Times New Roman",
+          "fill": "#78350f",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a4bb-4",
+      "name": "Bold Header",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#020617",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 40,
+          "width": 200,
+          "height": 60,
+          "fill": "#000000"
+        },
+        {
+          "type": "i-text",
+          "left": 140,
+          "top": 55,
+          "fontSize": 24,
+          "text": "LOGO",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "A5 Bill Book": [
+    {
+      "id": "a5bb-1",
+      "name": "Compact Receipt",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 30,
+          "fontSize": 24,
+          "text": "RECEIPT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 80,
+          "width": 380,
+          "height": 2,
+          "fill": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "a5bb-2",
+      "name": "Yellow Note",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#713f12",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#fef9c3"
+        },
+        {
+          "type": "i-text",
+          "left": 20,
+          "top": 20,
+          "fontSize": 18,
+          "text": "Cash Memo",
+          "fontFamily": "Courier New",
+          "fontWeight": "bold",
+          "fill": "#854d0e"
+        }
+      ]
+    },
+    {
+      "id": "a5bb-3",
+      "name": "Blue Header A5",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#1e3a8a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 80,
+          "fill": "#2563eb"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 25,
+          "fontSize": 22,
+          "text": "INVOICE",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a5bb-4",
+      "name": "Simple Border",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#171717",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 10,
+          "top": 10,
+          "width": 400,
+          "height": 575,
+          "fill": "transparent",
+          "stroke": "#000000",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 40,
+          "fontSize": 20,
+          "text": "ESTIMATE",
+          "fontFamily": "Arial",
+          "fill": "#000000",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Brochures": [
+    {
+      "id": "br-1",
+      "name": "Tri-Fold Corporate",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#164e63",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 280,
+          "top": 0,
+          "width": 2,
+          "height": 595,
+          "fill": "#cbd5e1"
+        },
+        {
+          "type": "rect",
+          "left": 560,
+          "top": 0,
+          "width": 2,
+          "height": 595,
+          "fill": "#cbd5e1"
+        },
+        {
+          "type": "i-text",
+          "left": 140,
+          "top": 100,
+          "fontSize": 24,
+          "text": "About Us",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0f172a",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 140,
+          "top": 150,
+          "fontSize": 14,
+          "text": "We deliver quality...",
+          "fontFamily": "Arial",
+          "fill": "#64748b",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "br-2",
+      "name": "Bi-Fold Menu",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#7c2d12",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "rect",
+          "left": 420,
+          "top": 0,
+          "width": 2,
+          "height": 595,
+          "fill": "#fdba74"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 100,
+          "fontSize": 40,
+          "text": "MENU",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#9a3412",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 630,
+          "top": 100,
+          "fontSize": 30,
+          "text": "Specials",
+          "fontFamily": "serif",
+          "fill": "#9a3412",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "br-3",
+      "name": "Product Catalog",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#14532d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 100,
+          "fill": "#166534"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 50,
+          "fontSize": 36,
+          "text": "2025 COLLECTION",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 150,
+          "width": 200,
+          "height": 200,
+          "fill": "#dcfce7"
+        },
+        {
+          "type": "rect",
+          "left": 300,
+          "top": 150,
+          "width": 200,
+          "height": 200,
+          "fill": "#dcfce7"
+        },
+        {
+          "type": "rect",
+          "left": 550,
+          "top": 150,
+          "width": 200,
+          "height": 200,
+          "fill": "#dcfce7"
+        }
+      ]
+    },
+    {
+      "id": "br-4",
+      "name": "Event Guide",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#4c1d95",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#f5f3ff"
+        },
+        {
+          "type": "circle",
+          "left": 0,
+          "top": 0,
+          "radius": 200,
+          "fill": "#7c3aed",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 250,
+          "fontSize": 50,
+          "text": "CONFERENCE",
+          "fontFamily": "Impact",
+          "fill": "#5b21b6",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 320,
+          "fontSize": 20,
+          "text": "Schedule & Map",
+          "fontFamily": "Arial",
+          "fill": "#4c1d95",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Digital Cards": [
+    {
+      "id": "dc-1",
+      "name": "Digital Wedding",
+      "width": 1080,
+      "height": 1920,
+      "previewColor": "#701a75",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920,
+          "fill": "#fae8ff"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 400,
+          "fontSize": 60,
+          "text": "YOU ARE INVITED",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#86198f",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 600,
+          "fontSize": 40,
+          "text": "Save The Date",
+          "fontFamily": "cursive",
+          "fill": "#d946ef",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dc-2",
+      "name": "Birthday Bash",
+      "width": 1080,
+      "height": 1920,
+      "previewColor": "#0c4a6e",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "circle",
+          "left": 540,
+          "top": 400,
+          "radius": 300,
+          "fill": "#38bdf8",
+          "opacity": 0.3
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 400,
+          "fontSize": 80,
+          "text": "BIRTHDAY",
+          "fontFamily": "Impact",
+          "fill": "#0284c7",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 500,
+          "fontSize": 60,
+          "text": "PARTY",
+          "fontFamily": "Impact",
+          "fill": "#0369a1",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dc-3",
+      "name": "Party Invite",
+      "width": 1080,
+      "height": 1920,
+      "previewColor": "#18181b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920,
+          "fill": "#18181b"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 300,
+          "fontSize": 100,
+          "text": "DJ NIGHT",
+          "fontFamily": "Impact",
+          "fill": "#ef4444",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 500,
+          "fontSize": 40,
+          "text": "Saturday, 9 PM",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dc-4",
+      "name": "Baby Shower",
+      "width": 1080,
+      "height": 1920,
+      "previewColor": "#9a3412",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 300,
+          "fontSize": 60,
+          "text": "Baby Shower",
+          "fontFamily": "cursive",
+          "fill": "#f97316",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 400,
+          "fontSize": 30,
+          "text": "Join us to celebrate",
+          "fontFamily": "Arial",
+          "fill": "#c2410c",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Offset Cards": [
+    {
+      "id": "oc-1",
+      "name": "Bulk Business Card",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 175,
+          "fontSize": 24,
+          "text": "Offset Print Design",
+          "fontFamily": "Arial",
+          "fill": "#0ea5e9",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oc-2",
+      "name": "Loyalty Card",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 560,
+          "height": 310,
+          "fill": "transparent",
+          "stroke": "#f59e0b",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 100,
+          "fontSize": 30,
+          "text": "LOYALTY CARD",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#b45309",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 16,
+          "text": "Buy 10 Get 1 Free",
+          "fontFamily": "Arial",
+          "fill": "#92400e",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oc-3",
+      "name": "Membership Card",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 150,
+          "fontSize": 30,
+          "text": "GOLD MEMBER",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#facc15",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 250,
+          "fontSize": 14,
+          "text": "ID: 12345678",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oc-4",
+      "name": "Appointment Card",
+      "width": 600,
+      "height": 350,
+      "previewColor": "#be185d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 350,
+          "fill": "#fdf2f8"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 100,
+          "fontSize": 24,
+          "text": "Next Appointment",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#db2777",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 100,
+          "top": 200,
+          "width": 400,
+          "height": 2,
+          "fill": "#db2777"
+        }
+      ]
+    }
+  ],
+  "Calendar": [
+    {
+      "id": "cal-1",
+      "name": "Wall Calendar",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 400,
+          "fill": "#ffedd5"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 500,
+          "fontSize": 40,
+          "text": "JANUARY 2025",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#c2410c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cal-2",
+      "name": "Desk Calendar",
+      "width": 595,
+      "height": 420,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 420,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 555,
+          "height": 380,
+          "fill": "#ffffff",
+          "stroke": "#0ea5e9",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 100,
+          "fontSize": 50,
+          "text": "2025",
+          "fontFamily": "Impact",
+          "fill": "#0284c7",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cal-3",
+      "name": "Nature Theme",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "circle",
+          "left": 297,
+          "top": 250,
+          "radius": 200,
+          "fill": "#16a34a",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 600,
+          "fontSize": 30,
+          "text": "Nature's Beauty",
+          "fontFamily": "cursive",
+          "fill": "#15803d",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cal-4",
+      "name": "Artistic",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 495,
+          "height": 400,
+          "fill": "#fda4af"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 500,
+          "fontSize": 40,
+          "text": "ART 2025",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Daily Calendar": [
+    {
+      "id": "dcal-1",
+      "name": "Daily Tear-off",
+      "width": 300,
+      "height": 400,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 400,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 100,
+          "fontSize": 80,
+          "text": "1",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ef4444",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 200,
+          "fontSize": 24,
+          "text": "JANUARY",
+          "fontFamily": "Arial",
+          "fill": "#000000",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dcal-2",
+      "name": "Quote of Day",
+      "width": 300,
+      "height": 400,
+      "previewColor": "#7e22ce",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 400,
+          "fill": "#fdf4ff"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 150,
+          "fontSize": 18,
+          "text": "\"Keep Going\"",
+          "fontFamily": "cursive",
+          "fill": "#86198f",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 300,
+          "fontSize": 14,
+          "text": "Monday, 1st Jan",
+          "fontFamily": "Arial",
+          "fill": "#6b21a8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dcal-3",
+      "name": "Spiritual",
+      "width": 300,
+      "height": 400,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 400,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "rect",
+          "left": 10,
+          "top": 10,
+          "width": 280,
+          "height": 380,
+          "fill": "transparent",
+          "stroke": "#f59e0b",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 100,
+          "fontSize": 30,
+          "text": "OM",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#b45309",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "dcal-4",
+      "name": "Office Daily",
+      "width": 300,
+      "height": 400,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 400,
+          "fill": "#f1f5f9"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 80,
+          "fill": "#334155"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 40,
+          "fontSize": 30,
+          "text": "25",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Monthly Calendar": [
+    {
+      "id": "mcal-1",
+      "name": "Monthly Planner",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 50,
+          "fontSize": 30,
+          "text": "Monthly Plan",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#15803d",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "mcal-2",
+      "name": "Floral Month",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "circle",
+          "left": 100,
+          "top": 100,
+          "radius": 50,
+          "fill": "#fda4af",
+          "opacity": 0.5
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 50,
+          "fontSize": 40,
+          "text": "February",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "mcal-3",
+      "name": "Minimal Month",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#1f2937",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 60,
+          "text": "03",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#e5e7eb"
+        },
+        {
+          "type": "i-text",
+          "left": 150,
+          "top": 60,
+          "fontSize": 30,
+          "text": "MARCH",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "mcal-4",
+      "name": "Corporate Month",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#f8fafc"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 80,
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 40,
+          "fontSize": 30,
+          "text": "APRIL 2025",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Pocket Calendar": [
+    {
+      "id": "pcal-1",
+      "name": "Pocket Size",
+      "width": 200,
+      "height": 300,
+      "previewColor": "#1d4ed8",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 300,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 50,
+          "fontSize": 18,
+          "text": "2025",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1d4ed8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pcal-2",
+      "name": "Mini Wallet",
+      "width": 200,
+      "height": 300,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 300,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 10,
+          "top": 10,
+          "width": 180,
+          "height": 280,
+          "fill": "transparent",
+          "stroke": "#16a34a",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 150,
+          "fontSize": 20,
+          "text": "CALENDAR",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#15803d",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pcal-3",
+      "name": "Folded Card",
+      "width": 200,
+      "height": 300,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 300,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 150,
+          "width": 200,
+          "height": 2,
+          "fill": "#fdba74"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 75,
+          "fontSize": 16,
+          "text": "Jan - Jun",
+          "fontFamily": "Arial",
+          "fill": "#9a3412",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 225,
+          "fontSize": 16,
+          "text": "Jul - Dec",
+          "fontFamily": "Arial",
+          "fill": "#9a3412",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pcal-4",
+      "name": "Business Card",
+      "width": 350,
+      "height": 200,
+      "previewColor": "#374151",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 350,
+          "height": 200,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 175,
+          "top": 50,
+          "fontSize": 24,
+          "text": "2025",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 175,
+          "top": 100,
+          "fontSize": 12,
+          "text": "Company Name",
+          "fontFamily": "Arial",
+          "fill": "#6b7280",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Yearly Calendar": [
+    {
+      "id": "ycal-1",
+      "name": "Year at a Glance",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#171717",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 36,
+          "text": "2025 CALENDAR",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "ycal-2",
+      "name": "Seasons",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0284c7",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 210,
+          "fill": "#dbeafe"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 210,
+          "width": 595,
+          "height": 210,
+          "fill": "#dcfce7"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 420,
+          "width": 595,
+          "height": 210,
+          "fill": "#fef3c7"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 630,
+          "width": 595,
+          "height": 212,
+          "fill": "#e0f2fe"
+        }
+      ]
+    },
+    {
+      "id": "ycal-3",
+      "name": "Holidays",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fef2f2"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 40,
+          "text": "HOLIDAYS",
+          "fontFamily": "Impact",
+          "fill": "#ef4444",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 150,
+          "fontSize": 20,
+          "text": "• New Year",
+          "fontFamily": "Arial",
+          "fill": "#b91c1c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "ycal-4",
+      "name": "Academic Year",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 30,
+          "text": "2025-2026",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#b45309",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 100,
+          "fontSize": 20,
+          "text": "ACADEMIC CALENDAR",
+          "fontFamily": "Arial",
+          "fill": "#92400e",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Certificates": [
+    {
+      "id": "cert-1",
+      "name": "Award Certificate",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#78350f",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 802,
+          "height": 555,
+          "fill": "transparent",
+          "stroke": "#b45309",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 150,
+          "fontSize": 50,
+          "text": "CERTIFICATE",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#b45309",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 220,
+          "fontSize": 30,
+          "text": "OF APPRECIATION",
+          "fontFamily": "serif",
+          "fill": "#000000",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cert-2",
+      "name": "Modern Diploma",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 595,
+          "fill": "#0ea5e9"
+        },
+        {
+          "type": "i-text",
+          "left": 521,
+          "top": 150,
+          "fontSize": 40,
+          "text": "DIPLOMA",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0369a1",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 521,
+          "top": 250,
+          "fontSize": 20,
+          "text": "This certifies that",
+          "fontFamily": "Arial",
+          "fill": "#334155",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cert-3",
+      "name": "Participation",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 742,
+          "height": 495,
+          "fill": "transparent",
+          "stroke": "#16a34a",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 100,
+          "fontSize": 40,
+          "text": "PARTICIPATION",
+          "fontFamily": "Impact",
+          "fill": "#15803d",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 200,
+          "fontSize": 24,
+          "text": "Thank you for joining us",
+          "fontFamily": "Arial",
+          "fill": "#166534",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "cert-4",
+      "name": "Achievement",
+      "width": 842,
+      "height": 595,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 595,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "circle",
+          "left": 421,
+          "top": 300,
+          "radius": 250,
+          "fill": "#fda4af",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 150,
+          "fontSize": 50,
+          "text": "ACHIEVEMENT",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 250,
+          "fontSize": 20,
+          "text": "Outstanding Performance",
+          "fontFamily": "Arial",
+          "fill": "#881337",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Envelopes Covers": [
+    {
+      "id": "env-1",
+      "name": "Standard Envelope",
+      "width": 600,
+      "height": 300,
+      "previewColor": "#374151",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 300,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 16,
+          "text": "To:",
+          "fontFamily": "Arial",
+          "fill": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "env-2",
+      "name": "Window Envelope",
+      "width": 600,
+      "height": 300,
+      "previewColor": "#475569",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 300,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 150,
+          "width": 200,
+          "height": 80,
+          "fill": "#e2e8f0",
+          "stroke": "#cbd5e1",
+          "strokeWidth": 1
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 50,
+          "fontSize": 14,
+          "text": "Stamp Here",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8"
+        }
+      ]
+    },
+    {
+      "id": "env-3",
+      "name": "Greeting Envelope",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#fef2f2"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 30,
+          "text": "Best Wishes",
+          "fontFamily": "cursive",
+          "fill": "#ef4444",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "env-4",
+      "name": "Official Envelope",
+      "width": 600,
+      "height": 300,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 300,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 280,
+          "width": 600,
+          "height": 20,
+          "fill": "#0284c7"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 18,
+          "text": "Company Name",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0369a1"
+        }
+      ]
+    }
+  ],
+  "Office Cover": [
+    {
+      "id": "off-1",
+      "name": "Office File Cover",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 300,
+          "fontSize": 30,
+          "text": "CONFIDENTIAL",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0369a1",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "off-2",
+      "name": "Project Report",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 200,
+          "fill": "#16a34a"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 100,
+          "fontSize": 40,
+          "text": "PROJECT REPORT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "off-3",
+      "name": "Annual Review",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 36,
+          "text": "ANNUAL REVIEW",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#c2410c",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 450,
+          "fontSize": 20,
+          "text": "2024-2025",
+          "fontFamily": "serif",
+          "fill": "#9a3412",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "off-4",
+      "name": "Client Proposal",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f8fafc"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 495,
+          "height": 742,
+          "fill": "transparent",
+          "stroke": "#334155",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 200,
+          "fontSize": 30,
+          "text": "PROPOSAL",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e293b",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Photo Cover": [
+    {
+      "id": "pho-1",
+      "name": "Photo Album Cover",
+      "width": 800,
+      "height": 800,
+      "previewColor": "#db2777",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 800,
+          "fill": "#fdf2f8"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 400,
+          "fontSize": 40,
+          "text": "MEMORIES",
+          "fontFamily": "cursive",
+          "fill": "#db2777",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pho-2",
+      "name": "Wedding Album",
+      "width": 800,
+      "height": 800,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 800,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 700,
+          "height": 700,
+          "fill": "transparent",
+          "stroke": "#be123c",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 400,
+          "fontSize": 60,
+          "text": "Our Wedding",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pho-3",
+      "name": "Baby Album",
+      "width": 800,
+      "height": 800,
+      "previewColor": "#1d4ed8",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 800,
+          "fill": "#eff6ff"
+        },
+        {
+          "type": "circle",
+          "left": 400,
+          "top": 400,
+          "radius": 200,
+          "fill": "#bfdbfe",
+          "opacity": 0.5
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 400,
+          "fontSize": 50,
+          "text": "Baby Steps",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1d4ed8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "pho-4",
+      "name": "Travel Portfolio",
+      "width": 800,
+      "height": 800,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 800,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 300,
+          "fontSize": 80,
+          "text": "TRAVEL",
+          "fontFamily": "Impact",
+          "fill": "#15803d",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 500,
+          "fontSize": 40,
+          "text": "2025",
+          "fontFamily": "Arial",
+          "fill": "#166534",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Viboothi Cover": [
+    {
+      "id": "vib-1",
+      "name": "Viboothi Packet",
+      "width": 200,
+      "height": 200,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 200,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 100,
+          "fontSize": 16,
+          "text": "Divine",
+          "fontFamily": "serif",
+          "fill": "#c2410c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "vib-2",
+      "name": "Temple Prasadam",
+      "width": 200,
+      "height": 200,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 200,
+          "fill": "#fef2f2"
+        },
+        {
+          "type": "rect",
+          "left": 10,
+          "top": 10,
+          "width": 180,
+          "height": 180,
+          "fill": "transparent",
+          "stroke": "#ef4444",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 100,
+          "fontSize": 14,
+          "text": "OM",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#ef4444",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "vib-3",
+      "name": "Festival Special",
+      "width": 200,
+      "height": 200,
+      "previewColor": "#a16207",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 200,
+          "fill": "#fefce8"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 80,
+          "fontSize": 14,
+          "text": "Happy",
+          "fontFamily": "Arial",
+          "fill": "#ca8a04",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 120,
+          "fontSize": 14,
+          "text": "Pongal",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ca8a04",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "vib-4",
+      "name": "Premium Gold",
+      "width": 200,
+      "height": 200,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 200,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 200,
+          "fill": "transparent",
+          "stroke": "#b45309",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 100,
+          "fontSize": 18,
+          "text": "Premium",
+          "fontFamily": "serif",
+          "fill": "#b45309",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Wedding Cover": [
+    {
+      "id": "wed-1",
+      "name": "Wedding Invite Cover",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 30,
+          "text": "Wedding Invitation",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "wed-2",
+      "name": "Royal Wedding",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 560,
+          "height": 360,
+          "fill": "transparent",
+          "stroke": "#b45309",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 150,
+          "fontSize": 40,
+          "text": "Royal Wedding",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#b45309",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 250,
+          "fontSize": 20,
+          "text": "Save the Date",
+          "fontFamily": "serif",
+          "fill": "#92400e",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "wed-3",
+      "name": "Floral Theme",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#a21caf",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#fdf4ff"
+        },
+        {
+          "type": "circle",
+          "left": 0,
+          "top": 0,
+          "radius": 100,
+          "fill": "#e879f9",
+          "opacity": 0.2
+        },
+        {
+          "type": "circle",
+          "left": 600,
+          "top": 400,
+          "radius": 100,
+          "fill": "#e879f9",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 30,
+          "text": "Together Forever",
+          "fontFamily": "cursive",
+          "fill": "#a21caf",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "wed-4",
+      "name": "Modern Minimal",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#18181b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 180,
+          "fontSize": 24,
+          "text": "WEDDING",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center",
+          "letterSpacing": 4
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 220,
+          "fontSize": 16,
+          "text": "INVITATION",
+          "fontFamily": "Arial",
+          "fill": "#6b7280",
+          "originX": "center",
+          "letterSpacing": 2
+        }
+      ]
+    }
+  ],
+  "Extra Work Charges": [
+    {
+      "id": "ewc-1",
+      "name": "Service Rate Card",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 28,
+          "text": "SERVICE RATES",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#334155",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 120,
+          "width": 495,
+          "height": 40,
+          "fill": "#e2e8f0"
+        },
+        {
+          "type": "i-text",
+          "left": 70,
+          "top": 130,
+          "fontSize": 16,
+          "text": "Service",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 450,
+          "top": 130,
+          "fontSize": 16,
+          "text": "Price",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e293b"
+        }
+      ]
+    },
+    {
+      "id": "ewc-2",
+      "name": "Dark Theme List",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 60,
+          "fontSize": 30,
+          "text": "EXTRAS",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#facc15",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 150,
+          "fontSize": 18,
+          "text": "• Rush Delivery",
+          "fontFamily": "Arial",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 450,
+          "top": 150,
+          "fontSize": 18,
+          "text": "$50",
+          "fontFamily": "Arial",
+          "fill": "#facc15"
+        }
+      ]
+    },
+    {
+      "id": "ewc-3",
+      "name": "Grid Pricing",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e3a8a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 100,
+          "width": 230,
+          "height": 150,
+          "fill": "#f0fdf4",
+          "stroke": "#16a34a",
+          "strokeWidth": 2
+        },
+        {
+          "type": "rect",
+          "left": 315,
+          "top": 100,
+          "width": 230,
+          "height": 150,
+          "fill": "#eff6ff",
+          "stroke": "#2563eb",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 165,
+          "top": 130,
+          "fontSize": 20,
+          "text": "BASIC",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#166534",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 430,
+          "top": 130,
+          "fontSize": 20,
+          "text": "PREMIUM",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e40af",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "ewc-4",
+      "name": "Simple List",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#9a3412",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 50,
+          "fontSize": 24,
+          "text": "Additional Charges",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#9a3412"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 90,
+          "width": 200,
+          "height": 2,
+          "fill": "#9a3412"
+        }
+      ]
+    }
+  ],
+  "Flex Printing": [
+    {
+      "id": "flex-1",
+      "name": "Grand Sale Banner",
+      "width": 1200,
+      "height": 600,
+      "previewColor": "#4338ca",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1200,
+          "height": 600,
+          "fill": "#eef2ff"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 300,
+          "fontSize": 120,
+          "text": "GRAND SALE",
+          "fontFamily": "Impact",
+          "fill": "#4338ca",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 450,
+          "fontSize": 60,
+          "text": "UP TO 70% OFF",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#312e81",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "flex-2",
+      "name": "Welcome Sign",
+      "width": 1200,
+      "height": 600,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1200,
+          "height": 600,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 1100,
+          "height": 500,
+          "fill": "transparent",
+          "stroke": "#15803d",
+          "strokeWidth": 10
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 250,
+          "fontSize": 100,
+          "text": "WELCOME",
+          "fontFamily": "serif",
+          "fontWeight": "bold",
+          "fill": "#166534",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 380,
+          "fontSize": 40,
+          "text": "To Our Grand Opening",
+          "fontFamily": "serif",
+          "fill": "#14532d",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "flex-3",
+      "name": "Event Banner",
+      "width": 1200,
+      "height": 600,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1200,
+          "height": 600,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "circle",
+          "left": 1000,
+          "top": -100,
+          "radius": 300,
+          "fill": "#be123c",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 200,
+          "fontSize": 80,
+          "text": "LIVE MUSIC",
+          "fontFamily": "Impact",
+          "fill": "#be123c"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 300,
+          "fontSize": 60,
+          "text": "CONCERT NIGHT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#881337"
+        }
+      ]
+    },
+    {
+      "id": "flex-4",
+      "name": "Shop Board",
+      "width": 1200,
+      "height": 600,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1200,
+          "height": 600,
+          "fill": "#0f172a"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 250,
+          "fontSize": 100,
+          "text": "TECH STORE",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#38bdf8",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 400,
+          "fontSize": 40,
+          "text": "Mobiles • Laptops • Accessories",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Flyers/Pamphlet": [
+    {
+      "id": "fly-1",
+      "name": "Special Offer",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0f766e",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#f0fdfa"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 200,
+          "fontSize": 50,
+          "text": "SPECIAL OFFER",
+          "fontFamily": "Impact",
+          "fill": "#0f766e",
+          "originX": "center"
+        },
+        {
+          "type": "rect",
+          "left": 100,
+          "top": 300,
+          "width": 395,
+          "height": 200,
+          "fill": "#ffffff",
+          "stroke": "#0f766e",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 30,
+          "text": "Buy 1 Get 1 Free",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0d9488",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fly-2",
+      "name": "Real Estate",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e293b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 400,
+          "fill": "#1e293b"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 150,
+          "fontSize": 40,
+          "text": "DREAM HOME",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 220,
+          "fontSize": 20,
+          "text": "Luxury Apartments For Sale",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fly-3",
+      "name": "Gym Membership",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#171717",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#171717"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 300,
+          "fontSize": 80,
+          "text": "FITNESS",
+          "fontFamily": "Impact",
+          "fill": "#ef4444",
+          "originX": "center",
+          "angle": -10
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 500,
+          "fontSize": 30,
+          "text": "JOIN TODAY",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "fly-4",
+      "name": "Education",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e3a8a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#eff6ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 100,
+          "fill": "#2563eb"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 30,
+          "text": "ADMISSIONS OPEN",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 200,
+          "fontSize": 20,
+          "text": "• Expert Faculty",
+          "fontFamily": "Arial",
+          "fill": "#1e3a8a"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 250,
+          "fontSize": 20,
+          "text": "• Modern Labs",
+          "fontFamily": "Arial",
+          "fill": "#1e3a8a"
+        }
+      ]
+    }
+  ],
+  "A3": [
+    {
+      "id": "a3-1",
+      "name": "A3 Poster",
+      "width": 842,
+      "height": 1191,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 1191,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 500,
+          "fontSize": 60,
+          "text": "A3 POSTER",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a3-2",
+      "name": "Movie Poster",
+      "width": 842,
+      "height": 1191,
+      "previewColor": "#000000",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 1191,
+          "fill": "#000000"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 300,
+          "fontSize": 80,
+          "text": "THE MOVIE",
+          "fontFamily": "Impact",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 1000,
+          "fontSize": 30,
+          "text": "COMING SOON",
+          "fontFamily": "Arial",
+          "fill": "#ef4444",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a3-3",
+      "name": "Scientific Chart",
+      "width": 842,
+      "height": 1191,
+      "previewColor": "#0369a1",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 1191,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "rect",
+          "left": 50,
+          "top": 50,
+          "width": 742,
+          "height": 1091,
+          "fill": "transparent",
+          "stroke": "#0284c7",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 100,
+          "fontSize": 50,
+          "text": "ANATOMY",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#0369a1",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a3-4",
+      "name": "Art Print",
+      "width": 842,
+      "height": 1191,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 842,
+          "height": 1191,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "circle",
+          "left": 421,
+          "top": 595,
+          "radius": 300,
+          "fill": "#f59e0b",
+          "opacity": 0.5
+        },
+        {
+          "type": "i-text",
+          "left": 421,
+          "top": 595,
+          "fontSize": 40,
+          "text": "ABSTRACT",
+          "fontFamily": "Courier New",
+          "fill": "#78350f",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "A4": [
+    {
+      "id": "a4-1",
+      "name": "A4 Document",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 40,
+          "text": "A4 PAGE",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a4-2",
+      "name": "Resume",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#0f172a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 842,
+          "fill": "#f1f5f9"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 100,
+          "fontSize": 24,
+          "text": "NAME",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#334155",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a4-3",
+      "name": "Cover Page",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e1b4b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#1e1b4b"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 300,
+          "fontSize": 50,
+          "text": "REPORT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 400,
+          "fontSize": 20,
+          "text": "2025",
+          "fontFamily": "Arial",
+          "fill": "#a5b4fc",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a4-4",
+      "name": "Notice",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#fef2f2"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 555,
+          "height": 802,
+          "fill": "transparent",
+          "stroke": "#ef4444",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 100,
+          "fontSize": 40,
+          "text": "NOTICE",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ef4444",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "A5": [
+    {
+      "id": "a5-1",
+      "name": "A5 Flyer",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#334155",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 300,
+          "fontSize": 30,
+          "text": "A5 FLYER",
+          "fontFamily": "Arial",
+          "fill": "#94a3b8",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a5-2",
+      "name": "Handbill",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#b45309",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#fffbeb"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 100,
+          "fontSize": 30,
+          "text": "OPENING",
+          "fontFamily": "Impact",
+          "fill": "#b45309",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 150,
+          "fontSize": 20,
+          "text": "SOON",
+          "fontFamily": "Impact",
+          "fill": "#b45309",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a5-3",
+      "name": "Invitation A5",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#db2777",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#fdf2f8"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 380,
+          "height": 555,
+          "fill": "transparent",
+          "stroke": "#db2777",
+          "strokeWidth": 2
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 200,
+          "fontSize": 24,
+          "text": "You are invited",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "a5-4",
+      "name": "Voucher",
+      "width": 420,
+      "height": 595,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 595,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 420,
+          "height": 100,
+          "fill": "#16a34a"
+        },
+        {
+          "type": "i-text",
+          "left": 210,
+          "top": 40,
+          "fontSize": 30,
+          "text": "GIFT VOUCHER",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Letterhead": [
+    {
+      "id": "lh-1",
+      "name": "Corporate Blue",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#1e3a8a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 100,
+          "fill": "#eff6ff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 822,
+          "width": 595,
+          "height": 20,
+          "fill": "#1e40af"
+        },
+        {
+          "type": "i-text",
+          "left": 40,
+          "top": 35,
+          "fontSize": 24,
+          "text": "TechCorp Inc.",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1e3a8a"
+        }
+      ]
+    },
+    {
+      "id": "lh-2",
+      "name": "Minimalist Header",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#18181b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 50,
+          "fontSize": 20,
+          "text": "JOHN DOE",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center",
+          "letterSpacing": 4
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 80,
+          "fontSize": 12,
+          "text": "CONSULTANT",
+          "fontFamily": "Arial",
+          "fill": "#6b7280",
+          "originX": "center",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "id": "lh-3",
+      "name": "Creative Sidebar",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#ca8a04",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 100,
+          "height": 842,
+          "fill": "#facc15"
+        },
+        {
+          "type": "i-text",
+          "left": 50,
+          "top": 400,
+          "fontSize": 30,
+          "text": "LOGO",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#000000",
+          "originX": "center",
+          "angle": -90
+        }
+      ]
+    },
+    {
+      "id": "lh-4",
+      "name": "Elegant Footer",
+      "width": 595,
+      "height": 842,
+      "previewColor": "#3f3f46",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 595,
+          "height": 842,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 40,
+          "top": 40,
+          "width": 60,
+          "height": 60,
+          "fill": "#000000"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 750,
+          "width": 595,
+          "height": 92,
+          "fill": "#18181b"
+        },
+        {
+          "type": "i-text",
+          "left": 297,
+          "top": 790,
+          "fontSize": 14,
+          "text": "www.company.com",
+          "fontFamily": "Arial",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Other": [
+    {
+      "id": "oth-1",
+      "name": "Custom Size",
+      "width": 800,
+      "height": 800,
+      "previewColor": "#4b5563",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 800,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 400,
+          "fontSize": 30,
+          "text": "Blank Canvas",
+          "fontFamily": "Arial",
+          "fill": "#9ca3af",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oth-2",
+      "name": "Social Square",
+      "width": 1080,
+      "height": 1080,
+      "previewColor": "#a21caf",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1080,
+          "fill": "#fdf4ff"
+        },
+        {
+          "type": "rect",
+          "left": 100,
+          "top": 100,
+          "width": 880,
+          "height": 880,
+          "fill": "transparent",
+          "stroke": "#d946ef",
+          "strokeWidth": 4
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 540,
+          "fontSize": 60,
+          "text": "SOCIAL POST",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#a21caf",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oth-3",
+      "name": "Story Format",
+      "width": 1080,
+      "height": 1920,
+      "previewColor": "#0284c7",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1080,
+          "height": 1920,
+          "fill": "#f0f9ff"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 400,
+          "fontSize": 80,
+          "text": "STORY",
+          "fontFamily": "Impact",
+          "fill": "#0ea5e9",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 540,
+          "top": 600,
+          "fontSize": 40,
+          "text": "Share your day",
+          "fontFamily": "Arial",
+          "fill": "#0284c7",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "oth-4",
+      "name": "Wide Banner",
+      "width": 1200,
+      "height": 400,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 1200,
+          "height": 400,
+          "fill": "#fff7ed"
+        },
+        {
+          "type": "i-text",
+          "left": 600,
+          "top": 200,
+          "fontSize": 60,
+          "text": "WEBSITE BANNER",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ea580c",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Roll-Up Standee": [
+    {
+      "id": "rus-1",
+      "name": "Expo Standee",
+      "width": 800,
+      "height": 2000,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 2000,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 500,
+          "fontSize": 80,
+          "text": "EXPO BANNER",
+          "fontFamily": "Impact",
+          "fill": "#166534",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 700,
+          "fontSize": 40,
+          "text": "Visit Booth #101",
+          "fontFamily": "Arial",
+          "fill": "#166534",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "rus-2",
+      "name": "Product Launch",
+      "width": 800,
+      "height": 2000,
+      "previewColor": "#1e1b4b",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 2000,
+          "fill": "#1e1b4b"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 400,
+          "fontSize": 100,
+          "text": "NEW",
+          "fontFamily": "Impact",
+          "fill": "#facc15",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 550,
+          "fontSize": 60,
+          "text": "ARRIVAL",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "rus-3",
+      "name": "Conference Schedule",
+      "width": 800,
+      "height": 2000,
+      "previewColor": "#1e3a8a",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 2000,
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 300,
+          "fill": "#2563eb"
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 150,
+          "fontSize": 60,
+          "text": "AGENDA",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#ffffff",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 500,
+          "fontSize": 40,
+          "text": "09:00 AM - Keynote",
+          "fontFamily": "Arial",
+          "fill": "#1e3a8a"
+        },
+        {
+          "type": "i-text",
+          "left": 100,
+          "top": 700,
+          "fontSize": 40,
+          "text": "11:00 AM - Workshop",
+          "fontFamily": "Arial",
+          "fill": "#1e3a8a"
+        }
+      ]
+    },
+    {
+      "id": "rus-4",
+      "name": "Welcome Standee",
+      "width": 800,
+      "height": 2000,
+      "previewColor": "#be123c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 2000,
+          "fill": "#fff1f2"
+        },
+        {
+          "type": "circle",
+          "left": 400,
+          "top": 600,
+          "radius": 300,
+          "fill": "#db2777",
+          "opacity": 0.2
+        },
+        {
+          "type": "i-text",
+          "left": 400,
+          "top": 600,
+          "fontSize": 80,
+          "text": "WELCOME",
+          "fontFamily": "cursive",
+          "fill": "#be123c",
+          "originX": "center"
+        }
+      ]
+    }
+  ],
+  "Sunpack Printing": [
+    {
+      "id": "sp-1",
+      "name": "Sunpack Ad",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#c2410c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#ffedd5"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 200,
+          "fontSize": 40,
+          "text": "ADVERTISEMENT",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#c2410c",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "sp-2",
+      "name": "No Parking",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#b91c1c",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#fef2f2"
+        },
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 20,
+          "width": 560,
+          "height": 360,
+          "fill": "transparent",
+          "stroke": "#ef4444",
+          "strokeWidth": 10
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 150,
+          "fontSize": 60,
+          "text": "NO PARKING",
+          "fontFamily": "Impact",
+          "fill": "#ef4444",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "sp-3",
+      "name": "Tuition Classes",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#1d4ed8",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#eff6ff"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 100,
+          "fontSize": 50,
+          "text": "MATHS TUITION",
+          "fontFamily": "Arial",
+          "fontWeight": "bold",
+          "fill": "#1d4ed8",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 250,
+          "fontSize": 30,
+          "text": "Call: 9876543210",
+          "fontFamily": "Arial",
+          "fill": "#1e3a8a",
+          "originX": "center"
+        }
+      ]
+    },
+    {
+      "id": "sp-4",
+      "name": "House for Rent",
+      "width": 600,
+      "height": 400,
+      "previewColor": "#15803d",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 400,
+          "fill": "#f0fdf4"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 150,
+          "fontSize": 50,
+          "text": "TO LET",
+          "fontFamily": "Impact",
+          "fill": "#15803d",
+          "originX": "center"
+        },
+        {
+          "type": "i-text",
+          "left": 300,
+          "top": 250,
+          "fontSize": 30,
+          "text": "2 BHK Available",
+          "fontFamily": "Arial",
+          "fill": "#166534",
+          "originX": "center"
+        }
+      ]
+    }
+  ]
+}
