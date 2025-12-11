@@ -4,9 +4,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:sanctum');
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/user', function (Request $request) {
+        return $request->user();
+    });
+    
+    // User Settings
+    Route::post('/user/profile', [\App\Http\Controllers\UserController::class, 'updateProfile']); // POST for FormData (file upload) usually easier than PUT
+    Route::delete('/user/profile-picture', [\App\Http\Controllers\UserController::class, 'removeProfilePicture']);
+    Route::put('/user/password', [\App\Http\Controllers\UserController::class, 'updatePassword']);
+    Route::delete('/user', [\App\Http\Controllers\UserController::class, 'deleteAccount']);
+});
 
 Route::prefix('auth')->group(function () {
     Route::post('/register', [AuthController::class, 'register']);
@@ -30,6 +38,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Tokens
     Route::get('/packages', [\App\Http\Controllers\TokenController::class, 'packages']);
+    Route::get('/tokens/balance', [\App\Http\Controllers\TokenController::class, 'balance']);
     Route::post('/purchase', [\App\Http\Controllers\TokenController::class, 'purchase']);
     Route::get('/transactions', [\App\Http\Controllers\TokenController::class, 'history']);
 

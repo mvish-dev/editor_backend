@@ -19,6 +19,17 @@ class TokenController extends Controller
         }
     }
 
+    public function balance(Request $request)
+    {
+        try {
+            return response()->json([
+                'balance' => $request->user()->token_balance
+            ]);
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
+
     public function purchase(Request $request)
     {
         try {
