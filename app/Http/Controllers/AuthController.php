@@ -140,4 +140,83 @@ class AuthController extends Controller
             return $this->handleException($e);
         }
     }
+
+    public function forgotPassword(Request $request)
+    {
+        try {
+            $request->validate([
+                'phone' => 'required|string|exists:users,phone',
+            ]);
+
+            $user = User::where('phone', $request->phone)->first();
+            // Although exists validation handles it, double check logic if needed
+            
+            $otp = rand(100000, 999999);
+            Cache::put('otp_reset_' . $user->phone, $otp, 600); 
+
+            return response()->json([
+                'status' => ResponseCode::SUCCESS,
+                'message' => 'OTP sent to your phone.',
+                'dev_otp' => $otp
+            ], ResponseCode::SUCCESS);
+
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
+
+    public function verifyResetOtp(Request $request)
+    {
+        try {
+            $request->validate([
+                'phone' => 'required|string',
+                'otp' => 'required|integer',
+            ]);
+
+            $cachedOtp = Cache::get('otp_reset_' . $request->phone);
+
+            if (!$cachedOtp || $cachedOtp != $request->otp) {
+                throw ValidationException::withMessages(['otp' => 'Invalid or expired OTP.']);
+            }
+
+            return response()->json([
+                'status' => ResponseCode::SUCCESS,
+                'message' => 'OTP verified.',
+            ], ResponseCode::SUCCESS);
+
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
+
+    public function resetPassword(Request $request)
+    {
+        try {
+            $request->validate([
+                'phone' => 'required|string|exists:users,phone',
+                'otp' => 'required|integer',
+                'password' => 'required|string|min:6',
+            ]);
+
+            $cachedOtp = Cache::get('otp_reset_' . $request->phone);
+
+            if (!$cachedOtp || $cachedOtp != $request->otp) {
+                throw ValidationException::withMessages(['otp' => 'Invalid or expired OTP.']);
+            }
+
+            $user = User::where('phone', $request->phone)->first();
+            $user->password = Hash::make($request->password);
+            $user->save();
+
+            Cache::forget('otp_reset_' . $request->phone);
+
+            return response()->json([
+                'status' => ResponseCode::SUCCESS,
+                'message' => 'Password reset successfully. Please login.',
+            ], ResponseCode::SUCCESS);
+
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
 }
