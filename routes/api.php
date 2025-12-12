@@ -35,6 +35,7 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     // Designs
     Route::apiResource('designs', \App\Http\Controllers\DesignController::class);
     Route::post('/designs/generate', [\App\Http\Controllers\DesignController::class, 'generateImage']);
+    Route::post('/upload-image', [\App\Http\Controllers\UploadController::class, 'uploadImage']);
 
     // Tokens
     Route::get('/packages', [\App\Http\Controllers\TokenController::class, 'packages']);
