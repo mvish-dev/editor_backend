@@ -38,6 +38,8 @@ class CategoryController extends Controller
             'name' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:categories,slug',
             'parent_id' => 'nullable|exists:categories,id',
+            'width' => 'nullable|integer|min:1',
+            'height' => 'nullable|integer|min:1',
         ]);
 
         $category = Category::create($request->all());
@@ -51,6 +53,8 @@ class CategoryController extends Controller
             'name' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:categories,slug,' . $category->id,
             'parent_id' => 'nullable|exists:categories,id',
+            'width' => 'nullable|integer|min:1',
+            'height' => 'nullable|integer|min:1',
         ]);
 
         $category->update($request->all());

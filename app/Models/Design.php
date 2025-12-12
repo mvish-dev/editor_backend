@@ -17,6 +17,11 @@ class Design extends Model
         'image_url',
         'is_template',
         'status',
+        'cost',
+        'sides',
+        'margin',
+        'colors',
+        'is_active',
     ];
 
     protected $casts = [

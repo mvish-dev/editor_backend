@@ -77,5 +77,7 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
 
         // Categories
         Route::apiResource('categories', \App\Http\Controllers\CategoryController::class);
+        // Templates
+        Route::apiResource('templates', \App\Http\Controllers\TemplateController::class);
     });
 });

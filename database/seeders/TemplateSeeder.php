@@ -41,9 +41,21 @@ class TemplateSeeder extends Seeder
 
         foreach ($templatesData as $categoryName => $templates) {
             // 1. Create Main Category
+            // Find default dimensions from the first template in this category, if any
+            $defaultWidth = null;
+            $defaultHeight = null;
+            if (!empty($templates) && isset($templates[0]['width']) && isset($templates[0]['height'])) {
+                $defaultWidth = $templates[0]['width'];
+                $defaultHeight = $templates[0]['height'];
+            }
+
             $category = Category::firstOrCreate(
                 ['name' => $categoryName],
-                ['slug' => Str::slug($categoryName)]
+                [
+                    'slug' => Str::slug($categoryName),
+                    'width' => $defaultWidth,
+                    'height' => $defaultHeight,
+                ]
             );
 
             $this->command->info("Seeding Category: $categoryName");

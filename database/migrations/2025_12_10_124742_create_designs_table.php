@@ -20,6 +20,11 @@ return new class extends Migration
             $table->string('image_url')->nullable();
             $table->boolean('is_template')->default(false);
             $table->enum('status', ['draft', 'pending', 'approved', 'rejected'])->default('draft');
+            $table->integer('cost')->default(0); // Token cost
+            $table->string('sides')->default('Single'); // Single or Double
+            $table->string('margin')->nullable(); // e.g., '3mm'
+            $table->string('colors')->default('CMYK'); // e.g., 'CMYK', 'RGB'
+            $table->boolean('is_active')->default(true);
             $table->timestamps();
         });
     }
