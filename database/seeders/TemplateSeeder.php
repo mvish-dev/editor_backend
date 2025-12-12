@@ -86,10 +86,7 @@ class TemplateSeeder extends Seeder
                         'user_id' => $admin->id,
                         'category_id' => $category->id,
                         'name' => $template['name'],
-                        'canvas_data' => json_encode($template), // Storing the whole template object structure as canvas_data? Or just 'objects'? 
-                        // The frontend usually expects canvas JSON. The file has 'objects', 'width', 'height'.
-                        // Fabric's loadFromJSON expects the whole object usually.
-                        // I will store the whole $template array as canvas_data.
+                        'canvas_data' => $template, 
                         'image_url' => null, // We don't have generated images yet
                         'is_template' => true,
                         'status' => 'approved',
