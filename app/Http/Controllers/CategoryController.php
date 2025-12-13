@@ -32,6 +32,11 @@ class CategoryController extends Controller
         return response()->json($categories);
     }
 
+    public function show(Category $category)
+    {
+        return response()->json($category->load('children', 'parent'));
+    }
+
     public function store(Request $request)
     {
         $request->validate([

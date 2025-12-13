@@ -4,6 +4,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
+
+// Public Routes
+Route::get('/categories', [\App\Http\Controllers\CategoryController::class, 'index']);
+Route::get('/categories/{category}', [\App\Http\Controllers\CategoryController::class, 'show']); // Assuming show method exists or will be added if missing, but checking controller showed it doesn't exist yet for Category? Wait, let me check controller again.
+Route::get('/templates', [\App\Http\Controllers\TemplateController::class, 'index']);
+Route::get('/templates/{template}', [\App\Http\Controllers\TemplateController::class, 'show']);
+
 Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
@@ -43,8 +50,6 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     Route::post('/purchase', [\App\Http\Controllers\TokenController::class, 'purchase']);
     Route::get('/transactions', [\App\Http\Controllers\TokenController::class, 'history']);
     Route::get('/orders', [\App\Http\Controllers\TokenController::class, 'orders']);
-    Route::get('/dashboard/stats', [\App\Http\Controllers\DashboardController::class, 'stats']);
-
     Route::get('/dashboard/stats', [\App\Http\Controllers\DashboardController::class, 'stats']);
     
     // Tickets
