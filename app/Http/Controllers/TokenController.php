@@ -87,4 +87,43 @@ class TokenController extends Controller
             return $this->handleException($e);
         }
     }
+
+    public function spend(Request $request)
+    {
+        try {
+            $request->validate([
+                'amount' => 'required|integer|min:1',
+                'description' => 'nullable|string'
+            ]);
+
+            $user = $request->user();
+            $amount = $request->amount;
+
+            if ($user->token_balance < $amount) {
+                return response()->json([
+                    'status' => ResponseCode::ERROR,
+                    'message' => 'Insufficient tokens'
+                ], 400);
+            }
+
+            $user->decrement('token_balance', $amount);
+
+            $user->transactions()->create([
+                'amount' => $amount, // store as positive, type indicates direction usually, but let's check purchase.
+                                     // Purchase stored positive. If I store positive here, I need to rely on type.
+                                     // Let's stick to positive amount and 'usage'/'spend' type.
+                'type' => 'usage',   // or 'spend'
+                'description' => $request->description ?? "Used tokens"
+            ]);
+
+            return response()->json([
+                'status' => ResponseCode::SUCCESS,
+                'message' => 'Tokens deducted successfully',
+                'new_balance' => $user->token_balance
+            ], ResponseCode::SUCCESS);
+
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
 }

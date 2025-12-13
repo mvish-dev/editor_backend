@@ -47,6 +47,7 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     // Tokens
     Route::get('/packages', [\App\Http\Controllers\TokenController::class, 'packages']);
     Route::get('/tokens/balance', [\App\Http\Controllers\TokenController::class, 'balance']);
+    Route::post('/tokens/spend', [\App\Http\Controllers\TokenController::class, 'spend']);
     Route::post('/purchase', [\App\Http\Controllers\TokenController::class, 'purchase']);
     Route::get('/transactions', [\App\Http\Controllers\TokenController::class, 'history']);
     Route::get('/orders', [\App\Http\Controllers\TokenController::class, 'orders']);
