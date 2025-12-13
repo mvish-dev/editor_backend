@@ -14,7 +14,11 @@ class DesignController extends Controller
     public function index(Request $request)
     {
         try {
-            return $request->user()->designs()->latest()->get();
+            // Fetch user's designs that are NOT templates
+            return $request->user()->designs()
+                ->where('is_template', false)
+                ->latest()
+                ->get();
         } catch (Exception $e) {
             return $this->handleException($e);
         }
@@ -32,6 +36,8 @@ class DesignController extends Controller
                 'name' => $request->name,
                 'canvas_data' => $request->canvas_data,
                 'status' => 'draft',
+                'is_template' => false, // Ensure it's a user design
+                'category_id' => $request->category_id ?? null, // Optional connection to original category
             ]);
 
             return response()->json($design, ResponseCode::CREATED);
@@ -60,8 +66,8 @@ class DesignController extends Controller
             }
 
             $request->validate([
-                'name' => 'string',
-                'canvas_data' => 'array',
+                'name' => 'nullable|string',
+                'canvas_data' => 'nullable|array',
             ]);
 
             $design->update($request->only('name', 'canvas_data'));
