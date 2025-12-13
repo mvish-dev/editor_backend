@@ -126,4 +126,25 @@ class TokenController extends Controller
             return $this->handleException($e);
         }
     }
+
+    public function updatePackage(Request $request, TokenPackage $package)
+    {
+        try {
+            $request->validate([
+                'name' => 'required|string',
+                'tokens' => 'required|integer|min:1',
+                'price' => 'required|numeric|min:0'
+            ]);
+
+            $package->update($request->only(['name', 'tokens', 'price']));
+
+            return response()->json([
+                'status' => ResponseCode::SUCCESS,
+                'message' => 'Package updated successfully',
+                'package' => $package
+            ], ResponseCode::SUCCESS);
+        } catch (Exception $e) {
+            return $this->handleException($e);
+        }
+    }
 }

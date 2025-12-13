@@ -86,5 +86,8 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
         Route::apiResource('categories', \App\Http\Controllers\CategoryController::class);
         // Templates
         Route::apiResource('templates', \App\Http\Controllers\TemplateController::class);
+
+        // Token Packages (Manage)
+        Route::put('/packages/{package}', [\App\Http\Controllers\TokenController::class, 'updatePackage']);
     });
 });
