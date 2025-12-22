@@ -24,15 +24,17 @@ class RoleController extends Controller
     {
         try {
             $request->validate([
-                'name' => 'required|string|unique:roles,name',
+                'name' => 'required|unique:roles,name',
+                'status' => 'nullable|string'
             ]);
 
-            $role = Role::create(['name' => $request->name, 'guard_name' => 'web']);
+            $role = Role::create([
+                'name' => $request->name,
+                'guard_name' => 'web',
+                'status' => $request->status ?? 'active'
+            ]);
 
-            return response()->json([
-                'message' => 'Role created successfully',
-                'role' => $role
-            ], 201);
+            return response()->json(['message' => 'Role created successfully', 'role' => $role], 201);
         } catch (Exception $e) {
             return $this->handleException($e);
         }
@@ -42,15 +44,16 @@ class RoleController extends Controller
     {
         try {
             $request->validate([
-                'name' => 'required|string|unique:roles,name,' . $role->id,
+                'name' => 'required|unique:roles,name,' . $role->id,
+                'status' => 'nullable|string'
             ]);
 
-            $role->update(['name' => $request->name]);
-
-            return response()->json([
-                'message' => 'Role updated successfully',
-                'role' => $role
+            $role->update([
+                'name' => $request->name,
+                'status' => $request->status ?? $role->status
             ]);
+
+            return response()->json(['message' => 'Role updated successfully', 'role' => $role]);
         } catch (Exception $e) {
             return $this->handleException($e);
         }

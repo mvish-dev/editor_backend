@@ -95,5 +95,10 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
         Route::apiResource('roles', \App\Http\Controllers\RoleController::class);
         Route::post('/roles/{role}/permissions', [\App\Http\Controllers\RoleController::class, 'assignPermissions']);
         Route::apiResource('permissions', \App\Http\Controllers\PermissionController::class);
+        
+        // Modules & Groups Management
+        Route::apiResource('module-groups', \App\Http\Controllers\ModuleGroupController::class);
+        Route::apiResource('modules', \App\Http\Controllers\ModuleMasterController::class);
+        Route::get('/module-matrix', [\App\Http\Controllers\ModuleController::class, 'index']); // Matrix view
     });
 });
