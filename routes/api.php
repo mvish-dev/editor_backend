@@ -21,6 +21,8 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
     Route::delete('/user/profile-picture', [\App\Http\Controllers\UserController::class, 'removeProfilePicture']);
     Route::put('/user/password', [\App\Http\Controllers\UserController::class, 'updatePassword']);
     Route::delete('/user', [\App\Http\Controllers\UserController::class, 'deleteAccount']);
+    
+    Route::get('admin/settings', [\App\Http\Controllers\SettingController::class, 'index']);
 });
 
 Route::prefix('auth')->middleware('maintenance')->group(function () {
@@ -79,7 +81,6 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
         Route::post('/templates/{design}/approve', [\App\Http\Controllers\AdminController::class, 'approveTemplate']);
 
         // Site Settings
-        Route::get('/settings', [\App\Http\Controllers\SettingController::class, 'index']);
         Route::post('/settings', [\App\Http\Controllers\SettingController::class, 'update']);
 
         // Categories
@@ -89,5 +90,10 @@ Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
 
         // Token Packages (Manage)
         Route::put('/packages/{package}', [\App\Http\Controllers\TokenController::class, 'updatePackage']);
+
+        // Roles & Permissions
+        Route::apiResource('roles', \App\Http\Controllers\RoleController::class);
+        Route::post('/roles/{role}/permissions', [\App\Http\Controllers\RoleController::class, 'assignPermissions']);
+        Route::apiResource('permissions', \App\Http\Controllers\PermissionController::class);
     });
 });
