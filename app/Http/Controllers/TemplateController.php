@@ -14,7 +14,7 @@ class TemplateController extends Controller
      */
     public function index(Request $request)
     {
-        $limit = $request->query('per_page', 10);
+        $limit = $request->query('per_page', 20);
         $categoryId = $request->query('category_id');
         
         $search = $request->query('search');
