@@ -17,11 +17,24 @@ class TemplateController extends Controller
         $limit = $request->query('per_page', 10);
         $categoryId = $request->query('category_id');
         
+        $search = $request->query('search');
+        
         $templates = Design::where('is_template', true)
             ->when($categoryId, function ($query, $categoryId) {
                 return $query->where('category_id', $categoryId);
             })
-            ->with('category') // Eager load category
+            ->when($search, function ($query, $search) {
+                return $query->where(function ($q) use ($search) {
+                    $q->where('name', 'like', '%' . $search . '%')
+                      ->orWhereHas('category', function ($q) use ($search) {
+                          $q->where('name', 'like', '%' . $search . '%')
+                            ->orWhereHas('parent', function ($q) use ($search) {
+                                $q->where('name', 'like', '%' . $search . '%');
+                            });
+                      });
+                });
+            })
+            ->with(['category.parent']) // Eager load category and its parent
             ->latest()
             ->paginate($limit);
 
