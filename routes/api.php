@@ -5,24 +5,27 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
 
-// Public Routes
-Route::get('/categories', [\App\Http\Controllers\CategoryController::class, 'index']);
-Route::get('/categories/{category}', [\App\Http\Controllers\CategoryController::class, 'show']); // Assuming show method exists or will be added if missing, but checking controller showed it doesn't exist yet for Category? Wait, let me check controller again.
-Route::get('/templates', [\App\Http\Controllers\TemplateController::class, 'index']);
-Route::get('/templates/{template}', [\App\Http\Controllers\TemplateController::class, 'show']);
+// Routes protected by maintenance mode (except login)
+Route::middleware(['maintenance'])->group(function () {
+    // Public Routes
+    Route::get('/categories', [\App\Http\Controllers\CategoryController::class, 'index']);
+    Route::get('/categories/{category}', [\App\Http\Controllers\CategoryController::class, 'show']);
+    Route::get('/templates', [\App\Http\Controllers\TemplateController::class, 'index']);
+    Route::get('/templates/{template}', [\App\Http\Controllers\TemplateController::class, 'show']);
 
-Route::middleware(['auth:sanctum', 'maintenance'])->group(function () {
-    Route::get('/user', function (Request $request) {
-        return $request->user();
+    Route::middleware(['auth:sanctum'])->group(function () {
+        Route::get('/user', function (Request $request) {
+            return $request->user();
+        });
+        
+        // User Settings
+        Route::post('/user/profile', [\App\Http\Controllers\UserController::class, 'updateProfile']); 
+        Route::delete('/user/profile-picture', [\App\Http\Controllers\UserController::class, 'removeProfilePicture']);
+        Route::put('/user/password', [\App\Http\Controllers\UserController::class, 'updatePassword']);
+        Route::delete('/user', [\App\Http\Controllers\UserController::class, 'deleteAccount']);
+        
+        Route::get('admin/settings', [\App\Http\Controllers\SettingController::class, 'index']);
     });
-    
-    // User Settings
-    Route::post('/user/profile', [\App\Http\Controllers\UserController::class, 'updateProfile']); // POST for FormData (file upload) usually easier than PUT
-    Route::delete('/user/profile-picture', [\App\Http\Controllers\UserController::class, 'removeProfilePicture']);
-    Route::put('/user/password', [\App\Http\Controllers\UserController::class, 'updatePassword']);
-    Route::delete('/user', [\App\Http\Controllers\UserController::class, 'deleteAccount']);
-    
-    Route::get('admin/settings', [\App\Http\Controllers\SettingController::class, 'index']);
 });
 
 Route::prefix('auth')->middleware('maintenance')->group(function () {
