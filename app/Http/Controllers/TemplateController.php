@@ -60,15 +60,15 @@ class TemplateController extends Controller
         $canvasData = $request->canvas_data ?? ['version' => '5.3.0', 'objects' => []];
 
         $template = Design::create([
-            'user_id' => Auth::id(), // Admin user
+            'user_id' => Auth::id(),
             'category_id' => $validated['category_id'],
             'name' => $validated['name'],
             'canvas_data' => $canvasData,
             'is_template' => true,
-            'status' => 'approved', // Templates created by admin are auto-approved
+            'status' => 'approved',
             'cost' => $validated['cost'] ?? 0,
             'sides' => $validated['sides'] ?? 'Single',
-            'margin' => $validated['margin'],
+            'margin' => $validated['margin'] ?? 3,
             'colors' => $validated['colors'] ?? 'CMYK',
             'is_active' => true,
         ]);
